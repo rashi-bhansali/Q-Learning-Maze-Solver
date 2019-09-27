@@ -1,2 +1,2 @@
 # Q-Learning-Maze-Solver
-This is a maze solving game which uses Q-learning algorithm to optimise and reach its destination
+This is an automated 2-D maze solver which uses Reinforcement Learning optimise its path and reach its destination.
