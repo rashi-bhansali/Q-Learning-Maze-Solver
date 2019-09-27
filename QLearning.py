@@ -1,13 +1,7 @@
 import time
 import numpy as np
 import pandas as pd
-p = pd.DataFrame((np.arange(16).reshape(4,4)), columns = [0,1,2,3] )
-'''
-for i in l:
-    for j in i:
-        print(j, end=' ')
-    print()'''
-    
+p = pd.DataFrame((np.arange(16).reshape(4,4)), columns = [0,1,2,3] )    
 np.random.seed(2)
 n_states= 16
 action = ['up', 'down', 'left', 'right']     # available actions
